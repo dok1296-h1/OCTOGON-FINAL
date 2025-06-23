@@ -35,7 +35,7 @@ function drawSharpOctagonSpiral() {
 
 function placeImages() {
   const mediaLayer = document.getElementById('mediaLayer');
-  const imageIndices = [5, 15, 25, 35, 10, 18]; // media5 and media6 now closer to center
+  const imageIndices = [1, 15, 25, 35, 10, 18]; // media5 and media6 now closer to center
 
   for (let i = 0; i < 6; i++) {
     const img = document.createElement('img');
