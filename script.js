@@ -39,7 +39,7 @@ function placeImages() {
 
   for (let i = 0; i < 6; i++) {
     const img = document.createElement('img');
-    img.src = `images/media${i + 1}.jpg`;
+    img.src = `media${i + 1}.jpg`;
     img.className = 'media-item';
     let coord = spiralCoords[imageIndices[i]];
     img.style.left = `${coord.x - 40}px`;
