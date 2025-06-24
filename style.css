@@ -8,7 +8,7 @@
 body {
   margin: 0;
   overflow: hidden;
-  background: url('images/background.jpg') repeat;
+  background: url('background.jpg') repeat;
   background-size: cover;
   animation: scrollBackground 60s linear infinite;
 }
