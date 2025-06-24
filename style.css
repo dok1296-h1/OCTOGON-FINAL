@@ -4,6 +4,18 @@
   src: local('Eurostile Extended Black'), local('Eurostile-Extended-Black');
   font-weight: bold;
 }
+.ghost-title {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  text-align: center;
+  font-size: 64px;
+  color: rgba(255, 255, 255, 0.2);
+  font-family: 'Eurostile Extended Black', Helvetica, Arial, sans-serif;
+  letter-spacing: 8px;
+  z-index: 2;
+  pointer-events: none;
+}
 
 body {
   margin: 0;
